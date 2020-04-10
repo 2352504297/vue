@@ -14,8 +14,14 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "element-ui": "^2.13.0",
+    "stats-js": "^1.0.1",
+    "three": "^0.115.0",
+    "three-css2drender": "^1.0.0",
+    "three-orbit-controls": "^82.1.0",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-stat": "^0.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
