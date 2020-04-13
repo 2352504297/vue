@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.userinfor{
+    width: 80%;
+    padding: 0 10%;
+    height: 100%;
+    background: rgb(3,3,3);
+   
+}
+#container{
+    /* margin: 0 auto; */
+    height: 200px;
+    width: 80%;
+    
+}
+#container canvas{
+    height: 200px;
+    width: 80%;
+}
+.information{
+    /* position: absolute; */
+    /* top: 200px; */
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: transparent !important;
+}
+.information .el-card{
+    background-color: transparent !important;
+    color: white;
+    border: none;
+}
+.text-info{
+    color: brown;
+    height: 3em;
+    line-height: 3em;
+}
+.text-label{
+    height: 3em;
+    line-height: 3em;
+}
+.information .el-card__header{
+    border-bottom: .5px solid #EBEEF5;
+    padding: 10;
+}
+.information .el-table td{
+border: none;
+background-color: transparent !important;
+}
+.information .el-table .cell,.information .el-table tr{
+    background-color: transparent !important;
+}
+.el-table__header-wrapper .el-table td,.el-table__header-wrapper .el-table th.is-leaf{
+    background-color: transparent !important;
+}
+ th, .el-table tr{
+    background-color: transparent !important;
+}
+.information .el-table__body-wrapper{
+    background-color: transparent !important;
+}

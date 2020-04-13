@@ -1,25 +1,24 @@
 <template>
   <div class="user">
-    <div id="info">
-      <div class="userinfo">
-        <el-menu
-          default-active="1-4-1"
-          class="el-menu-vertical-demo"
-          @open="handleOpen"
-          @close="handleClose"
-          :collapse="isCollapse"
-        >
-          <el-submenu index="1">
-            <template slot="title">
-              <i class="el-icon-location"></i>
-            </template>
-            <el-menu-item-group>
-              <el-menu-item index="1-1">选项1</el-menu-item>
-              <el-menu-item index="1-2">选项2</el-menu-item>
-            </el-menu-item-group>
-          </el-submenu>
-        </el-menu>
-      </div>
+    <div id="info"></div>
+    <div class="userinfo">
+      <el-menu
+        default-active="1-4-1"
+        class="el-menu-vertical-demo"
+        @open="handleOpen"
+        @close="handleClose"
+        :collapse="isCollapse"
+      >
+        <el-submenu index="1">
+          <template slot="title">
+            <i class="el-icon-location"></i>
+          </template>
+          <el-menu-item-group>
+            <el-menu-item index="1-1" @click="jumpuser">个人信息</el-menu-item>
+            <el-menu-item index="1-2" @click="jump">个人履历</el-menu-item>
+          </el-menu-item-group>
+        </el-submenu>
+      </el-menu>
     </div>
   </div>
 </template>
@@ -94,6 +93,13 @@ export default {
     },
     handleClose(key, keyPath) {
       console.log(key, keyPath);
+    },
+    jumpuser() {
+      debugger;
+      window.location.href = "http://localhost:8080/homeInfor";
+    },
+    jump() {
+      window.location.href = "http://localhost:8080/homeExperience";
     }
   }
 };
