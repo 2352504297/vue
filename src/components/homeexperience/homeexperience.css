@@ -1,0 +1,36 @@
+.el-header, .el-footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 40px !important;
+    line-height: 40px;
+  }
+  
+  .el-main {
+    background-color: transparent;
+    color: #333;
+    text-align: center;
+    /* line-height: 160px; */
+  }
+  
+  body > .el-container {
+    margin-bottom: 40px;
+  }
+  
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+  }
+  
+  .el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+  }
+  #experience{
+width: 80%;
+padding: 0 10%;
+align-items: center;
+justify-content: center;
+background: rgba(3, 3, 3);
+  }
+
+

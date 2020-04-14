@@ -1,0 +1,31 @@
+#xuan{
+    color: white;
+}
+#xuan .el-tabs--card>.el-tabs__header .el-tabs__nav{
+    border: none !important;
+}
+#xuan .el-tabs--card>.el-tabs__header .el-tabs__item{
+    border: none;
+    color: white;
+}
+#xuan .el-tabs--card>.el-tabs__header .el-tabs__item.is-active{
+    color: blue;
+}
+#xuan .el-tabs--card>.el-tabs__header{
+    border: none;
+}
+#xuan .xuan-centent{
+    text-align: left;
+    
+}
+#xuan .el-collapse-item__header,#xuan .el-collapse-item__wrap{
+    background-color: transparent;
+    border: none;
+}
+#xuan .el-collapse-item__header{
+    color: white;
+}
+#xuan .el-collapse{
+    border: none;
+    padding-left: 20px;
+}
